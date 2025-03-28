@@ -14,3 +14,5 @@ public class LeftRotatebyOne {
 
     }
 }
+
+// ArrayList <Integer> arr = new ArrayList<> (6)
