@@ -21,6 +21,16 @@ public class pailndrominteger {
 
 
 
+// for(int i =0 ; i < n ; i++){
+//     if(nums[i] !=nums[n-i-1]){
+//         retuen false;
+//     }
+
+// }
+// return true;
+
+
+
 // public class Question {
 //     public static boolean isPalindrome(String str){
 //         int  n = str.length();
