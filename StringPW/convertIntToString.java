@@ -3,10 +3,16 @@ import java.util.*;
 public class convertIntToString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number : ");
-        int n = sc.nextInt();
-        String s = "" + n;
-        System.out.println(s);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int base = sc.nextInt();
+
+        if(base ==0 || base ==1){
+            System.out.println("Not valid");
+        }
+
+        int sum = a+b ;
+        System.out.println(Integer.toString(sum , base));
 
         
     }
