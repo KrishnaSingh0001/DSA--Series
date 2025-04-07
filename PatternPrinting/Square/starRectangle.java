@@ -1,4 +1,4 @@
-package PatternPrinting;
+package PatternPrinting.Square;
 
 public class starRectangle {
 
