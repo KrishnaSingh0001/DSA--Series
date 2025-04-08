@@ -16,10 +16,10 @@ public class powerofTwo {
         int a = sc.nextInt();
         // int b = sc.nextInt();
         if(ispower(a)){
-            System.out.println("yes");
+            System.out.println("yes Divisible by 2");
         }
         else{
-            System.out.println("No");
+            System.out.println("No not divisible by 2 ");
         }
     }
     
