@@ -20,7 +20,7 @@ public class binaryTriangle {
                     }
                 }
                 
-                else{
+                else{ // i%2==0
                     if(j%2==0){
                         System.out.print("1" + " ");
                     }
