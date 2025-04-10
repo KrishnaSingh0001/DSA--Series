@@ -10,7 +10,7 @@ public class Fibonacci {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number n: ");
+        System.out.print("Enter the Number n: ");
         int n = sc.nextInt();
         System.out.println(fibo(n));
     }
