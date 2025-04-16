@@ -13,8 +13,7 @@ public class StocksBuySell {
         return maxpro;
     }
     public static void main(String[] args) {
-        int arr [] = {7,1,5,3,6,4};
-        
+        int arr [] = {7,1,5,3,6,4}; 
         System.out.println("Max Profit is : " + maxpro(arr));
     }
 }

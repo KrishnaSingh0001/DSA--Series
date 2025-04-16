@@ -8,7 +8,7 @@ public class LeftRotatebyOne {
         }
         arr[n-1]= temp;   // storing arrays at last position 
         for (int i = 0; i < n; i++) {
-            System.out.println(arr[i]); // Printing each element
+            System.out.print(arr[i] + " "); // Printing each element
         }
         
 

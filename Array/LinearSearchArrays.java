@@ -23,7 +23,7 @@ public class LinearSearchArrays {
         boolean flag = false ; // element not to be found 
         for(int i=0 ; i<n ; i++){
             if(arr[i]==x){
-                flag = true; //element found 
+                flag = true;    //element found 
                 break;
             }
         }
