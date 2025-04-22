@@ -1,6 +1,6 @@
 public class sortZeoresOnes {
     public static void main(String[] args) {
-        int arr[] = { 1,  0 , 0 ,1, 0,1, 0 , 0 , 0,1 };
+        int arr[] = { 1,  0 , 0 ,1, 0,1, 0 , 0 , 0,1  , 2,2 ,2 };
         int n = arr.length;
         //Method 1
         // int noOfZeroes = 0;  

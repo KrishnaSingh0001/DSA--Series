@@ -2,7 +2,7 @@
 
 public class Question6 {
     public static void main(String[] args) {
-        int [][] arr = {{1 , 2} , {3 , 4 }, {5 ,6 }};
+        int [][] arr = {{1 , 2 , 7 } , {3 , 4 , 8 }, {5 ,6 , 9}};
         int n = arr.length , m = arr[0].length;
 
         for(int j = 0 ; j<m ; j++){

@@ -9,7 +9,7 @@ public class BinarySearch {
         int  hi = n-1;
         boolean flag = false ; // means not present 
         while (lo<=hi){  // its just condition only for finding the element 
-            int mid = (lo + hi )/2;
+            int mid = hi- (lo + hi )/2;
             if(arr[mid] == target){  // (its first condition)
                 flag = true;
                 break;

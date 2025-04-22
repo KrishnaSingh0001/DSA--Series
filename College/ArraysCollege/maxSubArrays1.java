@@ -18,7 +18,7 @@ public class maxSubArrays1 {
     }
     // int maxsum= nums[0];
     // int currentSumsum=0;
-    public static void main(String[] args) {
+0    public static void main(String[] args) {
         int nums[] = {3 , 6, 2, 1 , 9, 13 ,2 };
         System.out.println(" The Max SubArrrays Sum is : " + maxSubArray(nums));
     }
