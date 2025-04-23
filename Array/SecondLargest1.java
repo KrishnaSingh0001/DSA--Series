@@ -1,6 +1,7 @@
+package Array;
 public class SecondLargest1 {
     public static void main(String[] args) {
-        int arr[] = {1,2,3,4,5};
+        int arr[] = {1,2,3,4,5,8,9};
         int n = arr.length;
         int max=Integer.MIN_VALUE;
         // int max=arr[0];
@@ -20,7 +21,7 @@ public class SecondLargest1 {
             System.out.println("FirstLargest Element :" + max);
         }
         else{
-            System.out.println("First largest is "+ max);
+            // System.out.println("First largest is "+ max);
             System.out.println("Second Largest is : " + smax);
         }
          

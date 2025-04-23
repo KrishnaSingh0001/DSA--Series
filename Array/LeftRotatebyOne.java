@@ -7,12 +7,11 @@ public class LeftRotatebyOne {
             arr[i-1]=arr[i];  // left by one 
         }
         arr[n-1]= temp;   // storing arrays at last position 
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " "); // Printing each element
+        for (int i = 0; i < n; i++) {  // Printing the each element 
+            System.out.print(arr[i] + " "); 
         }
         
 
     }
 }
 
-// ArrayList <Integer> arr = new ArrayList<> (6)
