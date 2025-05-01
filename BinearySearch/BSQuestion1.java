@@ -6,7 +6,7 @@ package BinearySearch;
 
 public class BSQuestion1 {
     public static int RotatedSortedArray(int arr , int k) {
-        // int n = arr.length;
+        int n = arr.length;
          
         // int flag = true;
         for(int i=0 ; i< n ; i++){
