@@ -18,7 +18,8 @@ public class kadansAlgorithm {
     }
     public static void main(String[] args) {
         // int nums[] = {1 , 2, 3 , -1 , -5 , -6 , 5 , 6  , 7};
-        int nums[] = {3 , 6 , 2 , 1 , 9, 13 , 2};
+        // int nums[] = {3 , 6 , 2 , 1 , 9, 13 , 2};
+        int nums[] = {1 , 5, -6  , 7, -8};
         // int result = obj.maxSumArrays(nums);
         System.out.println("The Max SubArrrays Sum is : " + maxSubArrays(nums));
     }
