@@ -1,4 +1,4 @@
-package Linked_List;
+package LinkedList;
 // class Car {
 //     int price ;
 //     String name;

@@ -5,20 +5,20 @@
 package BinearySearch;
 
 public class BSQuestion1 {
-    public static int RotatedSortedArray(int arr , int k) {
-        int n = arr.length;
+    public static int RotatedSortedArray(int nums , int k) {
+        // int n = nums.length;
          
         // int flag = true;
-        for(int i=0 ; i< n ; i++){
-            if(arr[i]==k){
+        for(int i=0 ; i< nums.length ; i++){
+            if(nums[i]==k){
                 return k;
             }
         }
         return -1;
     }
     public static void main(String[] args) {
-        int [] arr = { 5 , 6 , 7 ,8 , 9};
-        int n = arr.length;
+        int [] nums = { 5 , 6 , 7 ,8 , 9};
+        // int n = nums.length;
         int k= 8;
         System.out.println();
     }

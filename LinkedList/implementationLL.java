@@ -1,4 +1,4 @@
-package Linked_List;
+package LinkedList;
 import java.util.*;
 class SLL{ // Use as a User Defined Data Structure 
     Node head;
