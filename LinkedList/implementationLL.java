@@ -1,5 +1,7 @@
 package LinkedList;
 import java.util.*;
+
+// import LinkedList.*;Node;
 class SLL{ // Use as a User Defined Data Structure 
     Node head;
     Node tail;
