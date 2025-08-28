@@ -1,5 +1,5 @@
 // Question :- delete the Node in a Linked List. 
-package LinkedList2;
+package LinkedList;
 import java.util.*;
 class Node {
     int val;
