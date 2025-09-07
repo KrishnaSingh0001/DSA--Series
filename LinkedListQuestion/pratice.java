@@ -78,6 +78,24 @@ class SLL {
         }
         size++;
     }
+    void insertAtTail(int val){
+        Node temp = new Node(val);
+        if(size==0) head = tail = temp;
+        else{
+            tail.next = temp;
+            tail = temp;
+        }
+        size++;
+
+    }
+    void idx(int val , int idx){
+        Node temp = new Node(val);
+        Node x = head;
+        for(int i = 0 ; i <= idx-1;i++){
+            x = x.next;
+        }
+        temp.next = x.next;
+    }
 }
 
 public class pratice {
