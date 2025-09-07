@@ -1,4 +1,4 @@
-package Array;
+// package Array;
 public class SecondLargest1 {
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5,8,9};

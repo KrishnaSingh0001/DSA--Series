@@ -5,7 +5,7 @@ public class kadansAlgorithm {
         int currentSum =0;
 
         for(int i = 0; i<nums.length ; i++){
-            currentSum += nums[i];q
+            currentSum += nums[i];
 
             if(currentSum>maxSum){
                 maxSum=currentSum;
