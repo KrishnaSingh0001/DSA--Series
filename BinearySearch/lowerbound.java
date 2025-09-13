@@ -17,7 +17,6 @@ public class lowerbound {
             else{
                 lo = mid + 1;
             }
-
         }
         System.out.print(lb);
     }

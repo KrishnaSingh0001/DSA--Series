@@ -26,5 +26,3 @@ public class upperbound {
 }
 
 // if we take all as a user input 
-
-
