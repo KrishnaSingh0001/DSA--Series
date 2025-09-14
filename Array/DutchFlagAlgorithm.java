@@ -45,7 +45,6 @@ public class DutchFlagAlgorithm {
                 arr[lo]= temp;
                 lo++;
                 mid++;
-
             }
 
             else if (arr[mid]==1){
