@@ -12,7 +12,6 @@ public class ReverseKQueue {
         int k =3;
         reverseKQueue(q,k);
         System.out.println(q);
-
     }
     public static void reverseKQueue(Queue<Integer> q,int k){
         Stack<Integer> st = new Stack<>();
@@ -30,6 +29,5 @@ public class ReverseKQueue {
         for(int i=0; i<size-k;i++){
             q.add(q.remove());
         }
-        
     }
 }
