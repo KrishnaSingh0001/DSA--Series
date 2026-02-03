@@ -23,7 +23,7 @@ public class NodeOfTree {
         display(a);
         System.out.println();
         display(d);
-
+        
     }
     private static void display(Node root){
         if(root==null){ //Base case
