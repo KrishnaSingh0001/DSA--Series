@@ -16,6 +16,26 @@ public class Traversal {
         inorder(a);
         System.out.println();
         postorder(a);
+        System.out.println("Level order : ");
+        levelOrder(a);
+        System.out.println();
+    }
+    private static void levelOrder(Node root){
+        if(root==null){
+            return;
+        }
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            Node front = q.remove();
+            System.out.print(front.val+" ");
+            if(front.left!=null){
+                q.add(front.left);
+            }
+            if(front.right!=null){
+                q.add(front.right);
+            }
+        }
     }
     private static void preorder(Node root){
         if(root==null){
