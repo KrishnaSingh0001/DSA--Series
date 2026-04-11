@@ -74,3 +74,4 @@ public class Traversal {
         System.out.print(root.val+" ");
     }
 }
+
