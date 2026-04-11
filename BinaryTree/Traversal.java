@@ -1,5 +1,16 @@
 package BinaryTree;
-
+import java.util.LinkedList;
+import java.util.Queue;
+class Node {
+    int val;
+    Node left;
+    Node right;
+    public Node(int val){
+        this.val = val;
+        this.left = null;
+        this.right = null;
+    }
+}
 public class Traversal {
     public static void main(String[] args) {
         Node a = new Node(1);
@@ -16,7 +27,8 @@ public class Traversal {
         inorder(a);
         System.out.println();
         postorder(a);
-        System.out.println("Level order : ");
+        System.out.println();
+        System.out.print("Level order : ");
         levelOrder(a);
         System.out.println();
     }
