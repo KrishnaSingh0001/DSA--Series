@@ -4,10 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
-
-
+        {
+            "type": "java",
+            "name": "ArrayList2D",
+            "request": "launch",
+            "mainClass": "ArrayList2D",
+            "projectName": "DSA Series_8e5633a2"
+        },
+        {
+            "type": "java",
+            "name": "BasicLL",
+            "request": "launch",
+            "mainClass": "BasicLL",
+            "projectName": "DSA Series_8e5633a2"
+        },
+        {
+            "type": "java",
+            "name": "BasicLL",
+            "request": "launch",
+            "mainClass": "LinkedListRevision.BasicLL",
+            "projectName": "DSA Series_8e5633a2"
+        },
         {
             "type": "java",
             "name": "ArraysInitialise",
