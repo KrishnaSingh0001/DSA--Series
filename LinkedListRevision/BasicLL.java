@@ -9,7 +9,7 @@ public class BasicLL {
         }
     }
     public static void main(String[] args){
-        // BasicLL list = new BasicLL();
+        // BasicLL list = new BasicLL(); 
         Node a = new Node(10);
         Node b = new Node(20);
         Node c = new Node(30);

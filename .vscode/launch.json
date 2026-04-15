@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SahllowCopyOfNode",
+            "request": "launch",
+            "mainClass": "LinkedList.SahllowCopyOfNode",
+            "projectName": "DSA Series_8e5633a2"
+        },
+        {
+            "type": "java",
+            "name": "StudentClass",
+            "request": "launch",
+            "mainClass": "OOPS.StudentClass",
+            "projectName": "DSA Series_8e5633a2"
+        },
+        {
+            "type": "java",
+            "name": "OOPsDefault",
+            "request": "launch",
+            "mainClass": "OOPS.OOPsDefault",
+            "projectName": "DSA Series_8e5633a2"
+        },
+        {
+            "type": "java",
+            "name": "BasicOfString",
+            "request": "launch",
+            "mainClass": "Strings.BasicOfString",
+            "projectName": "DSA Series_8e5633a2"
+        },
+        {
+            "type": "java",
             "name": "ArrayList2D",
             "request": "launch",
             "mainClass": "ArrayList2D",
